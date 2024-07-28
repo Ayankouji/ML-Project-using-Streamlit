@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 from streamlit_extras.let_it_rain import rain
 load_dotenv()
 
-# Set page configuration
+
 st.set_page_config(
     page_title="Monsoon Health Risk Assessment",
 )
@@ -16,7 +16,7 @@ st.set_page_config(
 
 st.title('Monsoon Health Risk Analysis ')
 st.image('Images/heaart.jpg')
-# Load the trained model
+
 model_path = 'ML Dataset/cardio_trained_model.sav'
 
 if os.path.exists(model_path):
@@ -66,7 +66,7 @@ class MultiApp:
       
             
 
-# Create an instance of the MultiApp class
+
 app_instance = MultiApp()
 app_instance.run()
 
