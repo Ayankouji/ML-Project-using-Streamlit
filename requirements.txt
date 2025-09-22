@@ -3,3 +3,6 @@ pandas
 numpy
 scikit-learn
 streamlit-option-menu
+streamlit-option-menu
+streamlit-extras
+python-dotenv
